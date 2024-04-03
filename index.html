@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Agenda de Contatos</title>
+  </head>
+  <body>
+    <main>
+      <h1>Agenda</h1>
+      <p class="modo-uso"><span>Como utilizar:</span> Digite o nome do contato e o número, que serão adicionados à agenda.</p>
+      <form action="" id="contato-form">
+        <div class="input-box">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" />
+        </div>
+        <div class="input-box">
+          <label for="contato">Tell:</label>
+          <input type="tel" name="contato" id="contato" />
+        </div>
+        <button type="submit" class="btn" >Cadastrar</button>
+      </form>
+
+      <table id="contato-tabela" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Tell</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

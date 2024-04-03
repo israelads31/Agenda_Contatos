@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Mono", monospace;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+table {
+  width: 800px;
+}
+
+.modo-uso {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.modo-uso span {
+  font-weight: 900;
+}
+
+#contato-form {
+  display: block;
+  margin: 3rem 0;
+  padding: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.input-box {
+  margin: 1rem 0;
+}
+
+.input-box label {
+  font-weight: 600;
+}
+
+.input-box input {
+  font-weight: 500;
+  text-align: center;
+  padding: 0.125rem;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  width: 250px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.125rem;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contato-tabela {
+  margin: 1rem 0;
+}
+
+#contato-tabela th {
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  padding: 1rem;
+  border-bottom: 2px solid black;
+}
+
+#contato-tabela td {
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
